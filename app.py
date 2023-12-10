@@ -15,9 +15,9 @@ def prediction(input_data):
     print(prediction)
 
     if (prediction[0] == 0):
-      return 'The Transaction is Fraud'
+      return 'The Transaction is not Fraud'
     else:
-      return 'The Transaction is No Fraud'
+      return 'The Transaction is  Fraud'
 def main():
     
     
